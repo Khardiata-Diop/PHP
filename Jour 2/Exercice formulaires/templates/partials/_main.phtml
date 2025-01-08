@@ -1,0 +1,15 @@
+<main>
+    <h2>
+        <?= $pageTitle; ?>
+    </h2>
+    <!-- Votre formulaire ici -->
+    <form action="controllers/user-form.php" method="post">
+        <fieldset>
+            <label for="mdp">mot de passe<input type="text" id="mdp"/></label>
+            <!-- <label for="confmdp">confirmation de mot de passe<input type="text" id="confmdp"/></label> -->
+            <label for="mail">e-mail<input type="text" id="mail"/></label>
+            <!-- <label for="newsletter">Newsletter<input type="checkbox" id="newsletter"/></label> -->
+        </fieldset>
+        <input type="submit">
+    </form>
+</main>

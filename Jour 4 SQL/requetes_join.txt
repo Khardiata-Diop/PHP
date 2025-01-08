@@ -1,0 +1,9 @@
+Exercice SQL sur join :
+
+Exercice 1 : requête qui permet d’afficher l’email de Spiderman et l’intitulé de son métier.
+SELECT users.email, jobs.name FROM users JOIN jobs ON users.job = jobs.id WHERE users.id=7
+
+Exercice 2 : requête qui permet d’afficher toutes les infos de tous les users
+avec en plus l’intitulé de leurs jobs respectifs.
+
+Exercice 3 : requête qui permet d’afficher les emails de tous les users qui sont Journalistes.

@@ -1,0 +1,13 @@
+EXERCICES INSERT sur SQL :
+
+Exercice 1 : requête qui permet de créer un nouvel utilisateur :
+username : Spiderman
+email : peter.parker@daily-bugle.com
+job: 1
+
+INSERT INTO `users` (username, email, job) VALUES ("Spiderman", "peter.parker@daily-bugle.com", 1)
+
+Exercice 2 : requête qui permet de créer un nouveau job : name : Lycéen
+
+INSERT into `jobs` (name) VALUES ("Lycéen")
+

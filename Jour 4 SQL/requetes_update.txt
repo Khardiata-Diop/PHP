@@ -1,0 +1,6 @@
+Exercice SQL sur Update :
+
+Exercice 1 : requête qui permet de modifier le job de Spiderman,
+donnez lui l’id du job Lycéen.
+
+UPDATE `users` SET users.job=5 WHERE username="Spiderman"

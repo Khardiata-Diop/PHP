@@ -1,0 +1,5 @@
+Exercice SQL sur delete :
+
+Exercice 1 : requête qui permet de supprimer Batman.
+
+DELETE FROM `users` WHERE users.username="Batman"

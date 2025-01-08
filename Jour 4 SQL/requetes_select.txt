@@ -1,0 +1,24 @@
+EXERCICES SQL sur SELECT : 
+
+Exercice 1 : Affichez la liste de tous les users
+SELECT * FROM users
+
+Exercice 2 : Affichez toutes les informations de l’user qui a l’id 3.
+SELECT * FROM users WHERE id=3
+
+Exercice 3 : Affichez le username de l’user qui a l’id 2.
+SELECT `username` FROM `users` WHERE id=2
+
+Exercice 4 : Affichez la liste de tous les users du plus grand id au plus petit.
+SELECT * from `users` ORDER BY id DESC
+
+Exercice 5 : Affichez les 3 derniers users.
+SELECT * from `users` ORDER BY `id` DESC LIMIT 3
+
+
+
+
+
+
+
+
