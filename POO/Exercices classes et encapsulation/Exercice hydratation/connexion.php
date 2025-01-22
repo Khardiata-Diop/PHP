@@ -1,7 +1,7 @@
 <?php
 $host = "db.3wa.io";
 $port = "3306";
-$dbname = "khardiatadiop_pooj1";
+$dbname = "khardiatadiop_phpj5";
 $connexionString = "mysql:host=$host;port=$port;dbname=$dbname;charset=utf8";
 
 $user = "khardiatadiop";
@@ -12,5 +12,5 @@ $db = new PDO(
     $user,
     $password
 );
-
+var_dump($db);
 ?>
