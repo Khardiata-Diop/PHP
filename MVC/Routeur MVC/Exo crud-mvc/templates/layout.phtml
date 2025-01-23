@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?= $title ?? 'CRUD MVC Application' ?></title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>CRUD MVC Application</h1>
+        <nav>
+            <ul>
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="index.php?route=create_user">Créer un utilisateur</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <?php if (isset($content)) : ?>
+            <?= $content ?>
+        <?php else : ?>
+            <p>Le contenu est introuvable.</p>
+        <?php endif; ?>
+    </main>
+
+    <footer>
+        <p>&copy; <?= date('Y') ?> CRUD MVC Application</p>
+    </footer>
+</body>
+</html>
