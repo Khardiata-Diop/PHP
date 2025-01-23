@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $title ?? 'CRUD MVC Application' ?></title>
+    <title>CRUD MVC </title>
     <link rel="stylesheet" href="assets/styles/style.css">
     
 </head>
@@ -17,17 +17,7 @@
             </ul>
         </nav>
     </header>
-
-    <main>
-        <?php if (isset($content)) : ?>
-            <?= $content ?>
-        <?php else : ?>
-            <p>Le contenu est introuvable.</p>
-        <?php endif; ?>
-    </main>
-
-    <footer>
-        <p>&copy; <?= date('Y') ?> CRUD MVC Application</p>
-    </footer>
+    <?php require "templates/users/$route.phtml" ?>
+    
 </body>
 </html>

@@ -4,12 +4,12 @@
         public function show() : void
         {
             $route = "show";
-            require "templates/users/show.phtml";
+            require "templates/layout.phtml";
         }
          public function create () : void
         {
             $route = "create";
-            require "templates/users/create.phtml";
+            require "ttemplates/layout.phtml";
         }
          public function checkCreate() : void
         {
@@ -19,7 +19,7 @@
          public function update() : void
         {
             $route = "update";
-            require "templates/users/update.phtml";
+            require "templates/layout.phtml";
         }
          public function checkUpdate() : void 
         {
@@ -34,7 +34,7 @@
          public function list() : void
         {
             $route = "list";
-            require "templates/users/list.phtml";
+            require "templates/layout.phtml";
         }
          
          
